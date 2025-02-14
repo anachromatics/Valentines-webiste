@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b43939;
+    text-align: center;
+}
+
+.album {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Ajusta el tamaño */
+    gap: 20px;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.fotos {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Passion One', sans-serif;
+    font-size: 25px;
+    color: #b43939;
+    transition: transform 0.3s ease-in-out;
+}
+
+.fotos:active { /* Se agranda cuando se presiona */
+    transform: scale(1.5);
+}
+
+.fotos img {
+    width: 100%;  /* Hace que la imagen ocupe todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    max-width: 200px; /* Evita que sea demasiado grande */
+    display: block; /* Evita espacios extra debajo de la imagen */
+    margin: auto; /* Centra la imagen dentro del contenedor */
+    border-radius: 8px; /* Bordes redondeados opcionales */
+}
+
+h3 {
+    font-family: 'Passion One', sans-serif;
+    color: rgb(110, 22, 22);
+}

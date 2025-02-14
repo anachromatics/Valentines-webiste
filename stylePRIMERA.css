@@ -1,0 +1,44 @@
+html, body {
+    background-color: #a81d2f;
+    font-size: 100%;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1 {
+    font-family: 'Passion One', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+
+}
+
+h3 {
+    font-family: 'Passion One', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+.boton {
+    display: flex;
+    background-color: none;
+    text-decoration: none;
+    color: #ec687a;
+    font-family: 'Passion One', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    width: 50px;
+    margin: auto;
+    margin-top: 0;
+    padding-top: 0;
+
+}

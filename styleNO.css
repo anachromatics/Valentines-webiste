@@ -1,0 +1,21 @@
+body {
+    background-color: #1e202c;
+    display: flex;
+    justify-content: center;  /* Centra horizontalmente */
+    align-items: center;  /* Centra verticalmente */
+    height: 100vh;  /* Ocupa toda la altura de la pantalla */
+    margin: 0;
+    flex-direction: column; /* Para que el título y la imagen estén uno debajo del otro */
+}
+
+h1 {
+    font-family: 'Passion One', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+img {
+max-width: 100%; /* Evita que sea más grande que el contenedor */
+    height: auto; /* Mantiene la proporción */
+    display: block;
+}
